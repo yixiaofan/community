@@ -12,4 +12,30 @@
 
 ## 工具
 [Git](https://git-scm.com/download)  
-[Visual Paradigm](https://www.visual-paradigm.com/cn/) 
+[Visual Paradigm](https://www.visual-paradigm.com/cn/)   
+[Flyway](https://flywaydb.org/getstarted/firststeps/maven)  
+[Lombok](https://www.projectlombok.org)
+
+## 脚本
+1.在community里执行脚本
+```sql
+create user if not exists sa password '123';
+alter user sa admin true;
+```
+2.在USER表里执行
+```sql
+create table USER
+(
+    ID int auto_increment primary key,
+    ACCOUNT_ID VARCHAR(100),
+    NAME VARCHAR(50),
+    TOKEN CHAR(36),
+    GMT_CREATE BIGINT,
+    GMT_UPDATE BIGINT
+);
+```
+
+### flayway脚本
+```bash
+mvn flyway:migrate
+```
