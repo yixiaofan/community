@@ -14,7 +14,8 @@
 [Git](https://git-scm.com/download)  
 [Visual Paradigm](https://www.visual-paradigm.com/cn/)   
 [Flyway](https://flywaydb.org/getstarted/firststeps/maven)  
-[Lombok](https://www.projectlombok.org)
+[Lombok](https://www.projectlombok.org)  
+[Postman](https://chrome.google.com/webstore/detail/tabbed-postman-rest-clien/coohjcphdfgbiolnekdpbcijmhambjff)
 
 ## 脚本
 1.在community里执行脚本

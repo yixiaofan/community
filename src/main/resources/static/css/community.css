@@ -1,6 +1,15 @@
 body{
     background-color: #efefef
 }
+a,a:hover{
+    text-decoration-line: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+.clear{
+    clear: both;
+}
 .main{
     margin: 25px;
     background-color: white;
@@ -16,8 +25,84 @@ body{
     width: 38px;
     height: 38px;
 }
+.media-body{
+    padding-top: 10px;
+}
+.media-heading{
+    font-size: 14px;
+    word-wrap: break-word;
+}
 .text-desc{
     font-size: 12px;
     font-weight: normal;
     color: #999;
+}
+.profile .section{
+    margin-top: 15px;
+}
+.community-menu{
+    color: #999;
+    font-size: 12px;
+}
+.jumbotron{
+    margin: 50px;
+}
+.comment{
+    margin: 10px 0px;
+}
+.btn-comment{
+    float: right;
+    margin-bottom: 10px;
+}
+.comments{
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eee;
+}
+.comments:last-child{
+    border-bottom: none;
+}
+.comment-sp{
+    margin-top: 0px;
+}
+.menu,.menu a{
+    color: #999 ;
+    margin-top: 5px;
+}
+.menu .icon{
+    margin-right: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.menu .active{
+    color: #499ef3;
+}
+.menu a:hover{
+    color: #499ef3;
+}
+.comment-body{
+    padding-top: 0px;
+}
+.question-edit-sp{
+    margin-bottom: 10px;
+}
+.question-edit{
+    margin-right: 10px;
+    float: right;
+}
+.question-comments{
+    margin-top: 25px;
+}
+#comment_section{
+    margin-top: 25px;
+}
+.sub-comments{
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 1px solid #eee;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+.sub-comments .btn{
+    margin: 10px 0px;
 }
